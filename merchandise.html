@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.typekit.net/fii3qrh.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" 
+    integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <title>apac</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <a id="desktopLogo" href="index.html"><img src="img/logo.png" alt="Logo"></a>
+            <!-- <a id="mobileLogo" href="index.html"><img src="img/logo.hvidpåsort.png" alt="Logo"></a> -->
+            <ul>
+                <a href="index.html">HOME</a>
+                <a href="products.html">PRODUCTS</a>
+                <a href="about.html">ABOUT US</a>
+                <a href="acv.html">ABOUT ACV</a>
+                <a href="merchandise.html" class="active">MERCHANDISE</a>
+            </ul>
+    
+            <!-- Simulate a smartphone / tablet -->
+            <div class="mobile-container">
+
+                <!-- Top Navigation Menu -->
+                <div class="topnav">
+                    <a id="mobileLogo" href="index.html"><img id="logo" src="img/logo.png" alt="Logo"></a>
+                    <div id="myLinks">
+                        <a href="index.html">HOME</a>
+                        <a href="products.html">PRODUCTS</a>
+                        <a href="about.html">ABOUT US</a>
+                        <a href="acv.html">ABOUT ACV</a>
+                        <a href="merchandise.html" class="active">MERCHANDISE</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i id="burger" class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <!-- End smartphone / tablet look -->
+            </div>
+        </nav>
+    </header>
+
+    <main>
+<!-- Products -->
+        <section class="section4 blue">
+            <article>
+                <h2>apac water bottle</h2>
+                <p>Whether it's for your workout, or outdoor activities, the 
+                    apac water bottle keeps your liquid ready for consumption. 
+                    And is especially a must for consuming your apac powder, 
+                    when on the go. Comes in 3 colorways, that all feature 
+                    the stylish logo of apac.</p>
+            </article>
+            <article>
+                <img src="img/bottles.png" alt="test">
+            </article>
+        </section>
+        
+        <section id="cans" class="section4 darkBlue">
+            <article>
+                <h2>apac gym bag</h2>
+                <p>The apac gym bag has room for all your belongings, when 
+                    going to the gym. It’s a must have  for all of your workout 
+                    gear. Comes in 3 different  colorways, that all feature the 
+                    stylish logo of apac.</p>
+            </article>
+            <article>
+                <img src="img/bags.png" alt="test">
+            </article>
+        </section>
+
+        <section class="section4 blue"> 
+            <article>
+                <h2>apac tanktop</h2>
+                <p>Our apac tank top is for the women who seek the most comfortable 
+                    and form fitting workout cloth. It features a very minimal, yet 
+                    stylish design that's made for fitness and active people.</p>
+            </article>
+            <article>
+                <img src="img/tanktop.png" alt="test">
+            </article>  
+        </section>
+
+        <section class="section4 darkBlue">
+            <article>
+                <h2>apac hoodie</h2>
+                <p>The apac hoodie is our most comfortable product yet. It keeps your warm on your long 
+                    runs, and have a stylish looks that suits all active people. </p>
+            </article>
+            <article>
+                <img src="img/hoodie.png" alt="test">
+            </article>
+        </section>
+        
+        <section id="sticks" class="section4 blue">
+            <article>
+                <h2>apac shorts</h2>
+                <p>The apac shorts are for the active people, who needs a pair 
+                    of comfortable and minimal looking pair of workout shorts.</p>
+            </article>
+            <article>
+                <img src="img/shorts.png" alt="test">
+            </article>
+        </section>
+    
+        <section class="section4 darkBlue"> 
+            <article>
+                <h2>apac leggings</h2>
+                <p>A simple, yet comforting pair of leggings, with a stylish 
+                    hexagon pattern in different color variations. These are 
+                    made for the active fitness enthusiasts, that wants a 
+                    breathable pair of workout leggings.</p>
+            </article>
+            <article>
+                <img src="img/leggings.png" alt="test">
+            </article>  
+        </section>
+    </main>
+
+    <!-- <footer class="footer">
+        <div class="foot2">
+            <a href=""><img src="img/facebook-white.png" alt=""></a>
+            <a href=""><img src="img/instagram-white.png" alt=""></a>
+        </div>
+        <div class="foot1">
+            <p>Mail: mail@mymail.com</p>
+            <p>Phone: (+45) 12 12 12 12</p>
+        </div>
+    </footer> -->
+
+    <footer class="footer">
+        <p>Mail: mail@mymail.com</p>
+        <p>Phone: (+45) 12 12 12 12</p>
+    </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

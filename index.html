@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.typekit.net/fii3qrh.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" 
+    integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <title>apac</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <a id="desktopLogo" href="index.html"><img src="img/logo.png" alt="Logo"></a>
+            <!-- <a id="mobileLogo" href="index.html"><img src="img/logo.hvidpåsort.png" alt="Logo"></a> -->
+            <ul>
+                <a href="index.html" class="active">HOME</a>
+                <a href="products.html">PRODUCTS</a>
+                <a href="about.html">ABOUT US</a>
+                <a href="acv.html">ABOUT ACV</a>
+                <a href="merchandise.html">MERCHANDISE</a>
+            </ul>
+
+            <!-- Simulate a smartphone / tablet -->
+            <div class="mobile-container">
+
+                <!-- Top Navigation Menu -->
+                <div class="topnav">
+                    <a id="mobileLogo" href="index.html"><img id="logo" src="img/logo.png" alt="Logo"></a>
+                    <div id="myLinks">
+                        <a href="index.html" class="active">HOME</a>
+                        <a href="products.html">PRODUCTS</a>
+                        <a href="about.html">ABOUT US</a>
+                        <a href="acv.html">ABOUT ACV</a>
+                        <a href="merchandise.html">MERCHANDISE</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i id="burger" class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <!-- End smartphone / tablet look -->
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <img src="img/front.png" alt="test">
+            <a href="products.html"><button type="button" class="btn">PRODUCTS</button></a>
+        </section>
+
+        <!-- <section class="section3">
+            <article>
+                <img src="img/apple_can_transperant.png" alt="test">
+            </article>
+            <article>
+                <h2>We have a wide selection of products</h2>
+                <button type="button" class="btn">Go to products</button>
+            </article>
+        </section> -->
+
+        <section class="section1">
+            <article>
+                <h2>Create better results with apac</h2>
+                <a href="acv.html"><button type="button" class="btn">What does apac do?</button></a>
+            </article>
+            <article>
+                <img src="img/box-sport-men-training-163403.jpeg" alt="test">
+            </article>
+        </section>
+
+        <section class="headerText2">
+            <h2>AMBASSADORS</h2>
+        </section>
+
+        <section class="influencers">
+            <article class="influencer">
+                <img src="img/influencer1.png" alt="test">
+                <h3>Matilde</h3>
+                <p>Helse Matilde is one of Denmark's biggest bloggers when 
+                it comes to training and people's well being. Matilde 
+                cares a lot about having a healthy body, and shares with 
+                her followers what's healthy to eat and drink.</p>
+            </article>
+            <article class="influencer">
+                <img src="img/influencer2.png" alt="test">
+                <h3>Anders</h3>
+                <p>Anders Trust is one of the most recognized bodybuilders in 
+                Denmark, and is also one of the best personal coaches. Anders 
+                cares a lot about his weight up to bodybuilding events, and is 
+                therefore an ambassador for apac.</p>
+            </article>
+            <article class="influencer">
+                <img src="img/influencer3.png" alt="test">
+                <h3>Rebecka</h3>
+                <p>Rebecka Vitesson is one of the leading crossfit athletes i 
+                Denmark, and is also represented in the worlds biggest competitions 
+                around the world. Rebecka is an ambassador for apac, which keeps her 
+                weight and health in check during competitions/events.</p>
+            </article>
+        </section>
+
+        <section class="btnSection">
+            <a href="">@official_apac</a>
+        </section>
+
+        <section class="section5">
+                <article>
+                    <img src="img/cross.jpg" alt="test">
+                </article> 
+                <article>
+                    <h2>Get to know us</h2>
+                    <a href="about.html"><button type="button" class="btn">apac news</button></a>
+                </article>
+            </section>
+
+        <!-- <section class="section2">
+            <article>
+                <h2>Get to know us</h2>
+                <button type="button" class="btn">apac news</button>
+            </article>
+            <article>
+                <img src="img/cross.jpg" alt="test">
+            </article> 
+        </section> -->
+
+        <!-- <section class="headerText3">
+            <h4>More about apac on social media</h4>
+        </section> -->
+    </main>
+
+    <!-- <footer class="footer">
+        <div class="foot2">
+            <a href=""><img src="img/facebook-white.png" alt=""></a>
+            <a href=""><img src="img/instagram-white.png" alt=""></a>
+        </div>
+        <div class="foot1">
+            <p>Mail: mail@mymail.com</p>
+            <p>Phone: (+45) 12 12 12 12</p>
+        </div>
+    </footer> -->
+
+    <footer class="footer">
+        <p>Mail: mail@mymail.com</p>
+        <p>Phone: (+45) 12 12 12 12</p>
+    </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

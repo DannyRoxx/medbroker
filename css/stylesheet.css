@@ -1,0 +1,763 @@
+/* Green: #93c353 */
+/* Blue: #2979b7 */
+/* Red: #e62f30 */
+
+/* Dark Blue: #203047 */
+/* Medium Blue: #204977 */
+/* Light Blue: #458FCC */
+/* Grey: #585858 */
+
+
+body {
+    margin: 0;
+    background-color: #203047;
+    font-family: calibri, sans-serif;
+}
+
+.darkBlue {
+    background-color: #203047;
+}
+
+.blue {
+    background-color: #204977;
+}
+
+.lightBlue {
+    background-color: #458FCC;
+}
+
+.section1 h2, .section2 h2, .section3 h2 {
+    font-size: 3rem;
+}
+
+.headerText {
+    color: white;
+    background-color: #203047;
+    text-align: center;
+    margin: 0;
+    padding: 5% 10% 0;
+}
+
+.headerText2 {
+    color: white;
+    background-color: #204977;
+    text-align: left;
+    margin: 0;
+    padding: 5% 10% 0;
+}
+
+.headerText2 h2 {
+    font-size: 3rem;
+}
+
+.headerText3 {
+    color: black;
+    text-align: center;
+    padding: 0;
+    margin: 0 10% 10%;
+}
+
+/* Button Section */
+.btnSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 15% 15% 0;
+    text-align: center;
+    color: white;
+    background-color: #204977;
+}
+
+.btnSection a {
+    padding: 2%;
+    color: white;
+}
+
+/* .btnSection:hover {
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.btnSection a:hover {
+    color: black;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+} */
+
+/* Navigation */
+.menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2%;
+    padding: 0;
+    margin-bottom: 5%;
+    color: white;
+    background-color: #203047;
+    max-height: 18vh;
+}
+
+.menu img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+#desktopLogo {
+    display: none;
+}
+
+#mobilelogo {
+    display: block;
+}
+
+.menu ul {
+    display: none;
+    grid-template-columns: 1fr;
+    grid-gap: 2%;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul a {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.menu ul a:hover {
+    text-decoration: underline;
+}
+
+.menu ul a.active {
+    text-decoration: underline;
+}
+
+/* Burger Menu */
+.mobile-container {
+    margin: 0%;
+    height: 500px;
+    border-radius: 10px;
+}
+  
+.topnav {
+    overflow: hidden;
+    background-color: #203047;
+    position: relative;
+}
+  
+.topnav #myLinks {
+    display: none;
+}
+  
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+  
+.topnav a.icon {
+    background-color: #203047;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+.topnav a:hover {
+    background-color: #203047;
+    color: white;
+}
+
+#logo {
+    padding: 5% 15%;
+}
+
+#myLinks {
+      background-color: black;
+}
+
+#mylinks a.active {
+    text-decoration: underline;
+}
+
+#burger {
+    font-size: 2rem;
+}
+
+/* Banner */
+.banner {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    background-color: #203047;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    padding: 2% 0;
+    margin: 15% 0;
+}
+
+.banner a .btn {
+    color: white;
+    border: solid 1px white;
+    margin: 2% 0;
+    padding: 0 5%;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.banner a .btn:hover {
+    color: black;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+
+main a {
+    color: white;
+}
+
+main a:hover {
+    color: white;
+}
+
+/* Banner 2 */
+.banner2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #203047;
+    margin: -1% 0 0;
+    text-align: center;
+}
+
+.banner2 img {
+    width: 100%;
+    height: auto;
+    padding: 0 7%;
+    margin: 10% 0;
+}
+
+.banner2 img:hover {
+    width: 102%;
+    transition: 0.3s ease-in-out;
+}
+
+.banner2 #productSticks {
+    margin-top: 5%;
+}
+
+/* Section 1 */
+.section1, .section5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2%;
+    padding: 10% 5%;
+    background-color: black;
+    color: white;
+}
+
+.section1 {
+    text-align: center;
+    background-image: url('../img/box-sport-men-training-163403.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.section1 h2, .section5 h2 {
+    padding: 0 0 50%;
+    margin: 0;
+}
+
+.section1 img, .section5 img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.section1 .btn {
+    color: white;
+    background-color: black;
+    border-color: white;
+    margin: 5% 0;
+    font-size: 1.2rem;
+}
+
+.section1 .btn:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+/* Section 2 */
+.section2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2%;
+    padding: 10% 5%;
+    background-color: #2979b7;
+    color: white;
+}
+
+.section2 p {
+    padding: 0;
+}
+
+.section2 img {
+    width: 100%;
+    height: auto;
+}
+
+.section2 .btn {
+    color: white;
+    background-color: none;
+    border-color: white;
+    margin: 5% 0;
+    font-size: 1.2rem;
+}
+
+.section2 .btn:hover {
+    color: #93c353;
+    background-color: black;
+    border-color: black;
+}
+
+/* Section 3 */
+.section3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2%;
+    padding: 10% 5%;
+    background-color: #fff;
+    color: black;
+}
+
+.section3 p {
+    padding: 0;
+}
+
+.section3 img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.section3 .btn {
+    color: black;
+    background-color: white;
+    border-color: black;
+    margin: 5% 0;
+    font-size: 1.2rem;
+}
+
+.section3 .btn:hover {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+/* Section 4 */
+.section4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2%;
+    padding: 10% 5%;
+    color: white;
+}
+
+.section4 img {
+    width: 100%;
+    height: auto;
+    padding: 0 30%;
+}
+
+.section4 a:hover {
+    color: white;
+}
+
+/* Section 5 */
+.section5 {
+    text-align: center;
+    background-image: url('../img/cross.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section5 .btn {
+    color: white;
+    background-color: none;
+    border-color: white;
+    margin: 5% 0;
+    font-size: 1.2rem;
+}
+
+.section5 .btn:hover {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+/* About Section */
+.aboutSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2%;
+    padding: 10% 5%;
+    background-color: black;
+    color: white;
+    background-image: url('../img/man.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutSection h2 {
+    padding: 0 0 40%;
+    margin: 0;
+}
+
+.aboutSection h5 {
+    margin: 5% 0;
+}
+
+.aboutSection img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+/* About Section 2 */
+.aboutSection2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5%;
+    padding: 5% 10%;
+    color: white;
+    background-color: #204977;
+}
+
+.aboutSection2 article {
+    padding: 10%;
+    text-align: left;
+}
+
+/* Influencers */
+.influencers {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2%;
+    padding: 5%;
+    margin: -2% 0 0;
+    background-color: #204977;
+}
+
+/* Influencer */
+.influencer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5%;
+    color: white;
+    padding: 10% 10% 20%;
+    border-radius: 15px;
+}
+
+.influencer h3 {
+    text-align: center;
+}
+
+.influencer img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    padding: 0 5%;
+}
+
+/* Gallery */
+/* .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
+    padding: 5%;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+} */
+
+/* ACV Section */
+.acvSection {
+    padding: 5% 15%;
+    color: white;
+    background-color: #204977;
+}
+
+
+
+/* Footer */
+/* .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10%;
+    color: white;
+    background-color: #203047;
+    padding: 5%;
+    margin: 30% 0 0;
+}
+
+.foot1 {
+    text-align: center;
+}
+
+.foot2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20%;
+    text-align: center;
+    padding-left: 0;
+    margin: 0 30%;
+}
+
+.footer img {
+    width: 100%;
+    height: auto;
+} */
+
+.footer {
+    text-align: center;
+    padding: 10%;
+    color: white;
+    background-color: #203047;
+    background-image: url('../img/footer-mobil.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer p {
+    padding: 2%;
+    margin: 0;
+}
+
+
+@media  screen and (min-width: 1000px) {
+    
+    .section1 h2, .section2 h2, .section3 h2 {
+        font-size: 4rem;
+    }
+
+    /* Button Section */
+    .btnSection {
+        margin: 0;
+        padding: 0 40% 2%;
+    }
+    
+    /* Navigation */
+    .menu {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 30%;
+        padding: 1% 2%;
+        margin-bottom: 0;
+        /* border-bottom: 1px solid white; */
+    }
+    
+    .menu img {
+        width: auto;
+        height: 40px;
+        padding: 0;
+    }
+
+    #desktopLogo {
+        display: block;
+    }
+    
+    #mobileLogo {
+        display: none;
+    }
+    
+    .menu ul {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 2%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .menu ul a {
+        list-style-type: none;
+        text-align: center;
+        padding: 5%;
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    /* Burger Menu */
+    .mobile-container {
+        display: none;
+    }
+
+    /* Banner */
+    .banner img {
+        padding: 2% 5% 0;
+        margin: 0;
+    }
+
+    .banner .btn {
+        margin: 2% 40%;
+    }
+
+    /* Banner 2 */
+    .banner2 {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10%;
+        padding: 5% 10%;
+    }
+    .banner2 img {
+        padding: 0;
+        margin: 0;
+    }
+    
+    /* Section 1 */
+    .section1, .section5 {
+        grid-template-columns: 1fr 1fr;
+        padding: 5% 8% 20%;
+    }
+
+    .section1 {
+        text-align: left;
+        background-image: url('../img/box-sport-men-training-163403.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .section1 h2, .section5 h2 {
+        padding: 0;
+        font-size: 4rem;
+    }
+
+    .section1 img, .section5 img {
+        padding: 0;
+        display: none;
+    }
+
+    /* Section 2 */
+    .section2 {
+        grid-template-columns: 1fr 1fr;
+        padding: 10% 8%;
+    }
+
+    .section2 img {
+        padding: 0;
+    }
+
+    /* Section 3 */
+    .section3 {
+        grid-template-columns: 1fr 1fr;
+        padding: 5% 8%;
+        background-image: url('../img/apple_can_transperant.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .section3 img {
+        padding: 0 10%;
+        display: none;
+    }
+
+    /* Section 4 */
+    .section4 {
+        grid-template-columns: 1fr 1fr;
+        padding: 5% 15%;
+    }
+
+    .section4 img {
+        padding: 0 15%;
+    }
+
+    /* Section 5 */
+    .section5 {
+        text-align: right;
+        background-image: url('../img/cross.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* About Section */
+    .aboutSection {
+        grid-template-columns: 1fr 1fr;
+        padding: 18% 8%;
+        background-image: url('../img/man.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .aboutSection h2 {
+        padding: 0;
+    }
+
+    .aboutSection img {
+        padding: 0;
+        display: none;
+    }
+
+    /* About Section 2 */
+    .aboutSection2 {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0 2% 5%;
+    }
+
+    /* Influencers */
+    .influencers {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10%;
+        padding: 5% 10%;
+    }
+
+    /* Gallery */
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5%;
+        padding: 5%;
+    }
+
+    /* Footer */
+    /* .footer {
+        grid-template-columns: 1fr 1fr;
+        padding: 2% 10%;
+        margin: 0;
+    }
+
+    .foot1 {
+        text-align: left;
+    }
+
+    .foot2 {
+        text-align: right;
+        padding-left: 80%;
+        margin: 0;
+    } */
+
+    .footer {
+        text-align: right;
+        padding: 7% 8% 3%;
+        background-image: url('../img/footer.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .footer p {
+        padding: 0;
+    }
+}
